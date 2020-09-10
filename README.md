@@ -6,3 +6,16 @@ Projeto desenvolvido a fins de aprendizado, onde consultamos o banco de dados lo
 
 Projeto feito a fins educativos e de aprendizado
 
+# Fazendo instalação das biblioetcas utilizadas com pip
+
+```sh
+pip install json
+pip install base64
+pip install sqlite3
+pip install win32crypt
+pip install Cryptodome
+pip install shutil
+pip install smtplib
+pip install email
+```
+

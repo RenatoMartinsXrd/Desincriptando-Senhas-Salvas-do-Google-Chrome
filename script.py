@@ -35,8 +35,6 @@ def decrypt_password(buff, master_key):
 		decrypted_pass = decrypted_pass[:-16].decode()  # remove suffix bytes
 		return decrypted_pass
 	except Exception as e:
-		 # print("AI TU TOMOU NO TOBA SALVARAM A SENHA EM UMA VERSAO \n")
-		 # print(str(e))
 		 print("Provavelmente a senha foi salva em uma versão anterior a do chrome 80")
 		return "Chrome < 80"
  
